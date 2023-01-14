@@ -35,6 +35,30 @@ Next weights w1, w2, w3 and w4 are updated. Chain of operation for calculation t
 <img width="917" alt="image" src="https://user-images.githubusercontent.com/21367838/212447751-eaa4c58f-cf1f-4332-9fa1-c80c2bb6591a.png">
 
 
+## Effect of Change of Learning Rate
+
+Training becomes faster with increase in learning rate, while it slows down with decrease in learning rate.
+
+LR = 0.1
+<img width="322" alt="image" src="https://user-images.githubusercontent.com/21367838/212447804-71f10a19-636b-420a-8ea7-30dfa091dfbd.png">
+
+LR = 0.2
+<img width="316" alt="image" src="https://user-images.githubusercontent.com/21367838/212447862-87e9de4b-8d1b-4d91-9547-a8f33dbaced6.png">
+
+LR = 0.5
+<img width="316" alt="image" src="https://user-images.githubusercontent.com/21367838/212447876-383de12c-8642-41a7-b164-9329a8d6cc99.png">
+
+LR = 0.8
+<img width="314" alt="image" src="https://user-images.githubusercontent.com/21367838/212447891-fdba37eb-8fe1-4d7f-84e0-fe7da48026d0.png">
+
+LR = 1.0
+<img width="316" alt="image" src="https://user-images.githubusercontent.com/21367838/212447908-29805105-3cfb-46a6-a27d-b9e29deee90f.png">
+
+LR = 2.0
+<img width="316" alt="image" src="https://user-images.githubusercontent.com/21367838/212447919-d98fde34-4aec-4578-aed4-8045da1552ea.png">
+
+
+
 
 
 
