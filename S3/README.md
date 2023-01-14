@@ -11,12 +11,12 @@ Calculate loss as l2 loss by subtracting prediction from actual, squaring it and
 
 ### Backward Pass 
 
-Calculate weights w5, w6, w7, w8 by taking partial derivative of total loss w.r.t. w5, w6, w7, w8 respectively. \ 
-Derivative of loss w.r.t. w5, w6, w7, w8 can be calculated by chain rule. \ 
-∂E_total/∂w5 = ∂E1/∂w5 = ∂E1/∂a_o1 * ∂a_o1/∂o1 * ∂o1/∂w5 \ 
-∂E_total/∂w6 = ∂E1/∂w6 = ∂E1/∂a_o1 * ∂a_o1/∂o1 * ∂o1/∂w6 \  
-∂E_total/∂w7 = ∂E2/∂w7 = ∂E2/∂a_o2 * ∂a_o2/∂o2 * ∂o1/∂w7 \  
-∂E_total/∂w8 = ∂E2/∂w8 = ∂E2/∂a_o2 * ∂a_o2/∂o2 * ∂o1/∂w8 
+Calculate weights w5, w6, w7, w8 by taking partial derivative of total loss w.r.t. w5, w6, w7, w8 respectively.
+Derivative of loss w.r.t. w5, w6, w7, w8 can be calculated by chain rule.
+1. ∂E_total/∂w5 = ∂E1/∂w5 = ∂E1/∂a_o1 * ∂a_o1/∂o1 * ∂o1/∂w5
+2. ∂E_total/∂w6 = ∂E1/∂w6 = ∂E1/∂a_o1 * ∂a_o1/∂o1 * ∂o1/∂w6
+3. ∂E_total/∂w7 = ∂E2/∂w7 = ∂E2/∂a_o2 * ∂a_o2/∂o2 * ∂o1/∂w7
+4. ∂E_total/∂w8 = ∂E2/∂w8 = ∂E2/∂a_o2 * ∂a_o2/∂o2 * ∂o1/∂w8 
 
 
 
