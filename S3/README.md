@@ -1,5 +1,37 @@
 # PART 1
 
+## Forward Pass
+
+h1 = w1*i1 + w2*i2		
+h2 = w3*i1 + w4*i2		
+a_h1 = σ(h1) = 1/(1 + exp(-h1))		
+a_h2 = σ(h2) = 1/(1 + exp(-h2))		
+o1 = w5*a_h1 + w6*a_h2		
+o2 = w7*a_h1 + w8*a_h2		
+a_o1 = σ(o1)		
+a_o2 = σ(o20	
+
+## Loss function
+
+E_total = E1 + E2		
+E1 = 1/2 * (o1 - a_o1)^2		
+E2 = 1/2 * (o2 - a_o2)^2
+
+## Backward Pass
+
+∂E_total/∂w5 = (a_o1 - t1) * a_o1 * (1 - a_o1) * a_h1
+∂E_total/∂w6 = (a_o1 - t1) * a_o1 * (1 - a_o1) * a_h2
+∂E_total/∂w7 = (a_o2 - t2) * a_o2 * (1 - a_o2) * a_h1
+∂E_total/∂w8 = (a_o2 - t2) * a_o2 * (1 - a_o2) * a_h2
+
+∂E_total/∂w1 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w5 +  (a_o2 - t2) * a_o2 * (1 - a_o2) * w7) * a_h1 * (1 - ah1) * i1
+∂E_total/∂w2 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w5 +  (a_o2 - t2) * a_o2 * (1 - a_o2) * w7) * a_h1 * (1 - ah1) * i2
+∂E_total/∂w3 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w6 +  (a_o2 - t2) * a_o2 * (1 - a_o2) * w8) * a_h2 * (1 - ah2) * i1
+∂E_total/∂w4 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w6 +  (a_o2 - t2) * a_o2 * (1 - a_o2) * w8) * a_h2 * (1 - ah2) * i2
+
+
+
+
 # PART 2
 
 ## Model Architecture
