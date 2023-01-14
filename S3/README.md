@@ -20,6 +20,23 @@ Derivative of loss w.r.t. w5, w6, w7, w8 can be calculated by chain rule. First 
 
 Next weights w1, w2, w3 and w4 are updated. Chain of operation for calculation their derivative: take derivative of loss w.r.t activation output in output layer, derivative of activation output w.r.t. pre-activation output of output layer, derivative of pre-activation output of output layer w.r.t. activation output of hidden layer, derivative of activation output w.r.t. pre-activation output of hidden layer, derivative of pre-activation output of hidden layer w.r.t. weights and multiply all of them to get the partial derivatives. Subtract these partial derivatives by a factor to update the weights.
 
+1. ∂E_total/∂w1 = ∂E_total/∂a_h1 * ∂a_h1/∂h1 * ∂h1/∂w1
+2. ∂E_total/∂w2 = ∂E_total/∂a_h1 * ∂a_h1/∂h1 * ∂h1/∂w2
+3. ∂E_total/∂w3 = ∂E_total/∂a_h2 * ∂a_h2/∂h2 * ∂h2/∂w3
+4. ∂E_total/∂w3 = ∂E_total/∂a_h2 * ∂a_h2/∂h2 * ∂h2/∂w4
+
+
+<img width="524" alt="image" src="https://user-images.githubusercontent.com/21367838/212447689-15bd70a3-9bda-40db-8707-bd0707890b9f.png">
+
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/21367838/212447706-56bd6dcf-2800-448c-b72b-d351201d280b.png">
+
+<img width="548" alt="image" src="https://user-images.githubusercontent.com/21367838/212447727-b8da4354-8912-45fc-9d93-2fa2e09444ea.png">
+
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/21367838/212447751-eaa4c58f-cf1f-4332-9fa1-c80c2bb6591a.png">
+
+
+
+
 
 
 
