@@ -1,8 +1,8 @@
-## PART 1
+# PART 1
 
-## PART 2
+# PART 2
 
-# Model Architecture
+## Model Architecture
 1. convolution -> relu -> batch normalization
 2. convolution -> relu -> batch normalization -> max pooling -> dropout
 3. convolution -> relu -> batch normalization -> dropout
@@ -14,7 +14,7 @@
 <img width="383" alt="image" src="https://user-images.githubusercontent.com/21367838/212446357-5eb200fe-4af3-43fc-981c-001e6876f215.png">
 
 
-# Training Logs
+## Training Logs
 
 Test set: Average loss: 0.0242, Accuracy: 9921/10000 (99.21%)
 
@@ -75,7 +75,7 @@ loss=0.07753217220306396 batch_id=1874: 100%|██████████| 187
 Test set: Average loss: 0.0169, Accuracy: 9950/10000 (99.50%)
 
 
-# Final Model Performance
+## Final Model Performance
 
 Train Data: Average loss: 0.0120, Accuracy: 59782/60000 (99.64%)
 
