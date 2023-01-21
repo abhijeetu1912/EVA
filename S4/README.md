@@ -5,8 +5,8 @@ Build the code skeleton and achieve a decent accuracy
 
 Results:
 Parameters: 185,930 \
-Best Train Accuracy: 99.56 \ 
-Best Test Accuracy: 99.13 \ 
+Best Train Accuracy: 99.56 \
+Best Test Accuracy: 99.13
 
 Analysis:
 Overfitting as performance on test data is lower. \ 
