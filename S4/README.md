@@ -9,7 +9,7 @@
 
 # Final Model Architecture - Uses batch norm, dropout, data augmentation & learning rate scheduler
 
-1. Convolution layer 1: kernel size = 5 x 5, input = 1  x  28  x  28, output = 96  x  28  x  28, rf = 585 | conv -> batch norm -> relu
+1. Convolution layer 1: kernel size = 5 x 5, input = 1  x  28  x  28, output = 96  x  28  x  28, rf = 5 x 5 | conv -> batch norm -> relu
 2. Convolution layer 2: kernel size = 1 x 1, input = 96  x  28  x  28, output = 16  x  28  x  28, rf = 5 x 5 | conv -> batch norm -> relu
 3. Max pooling of kernel size 2 and stride 2: input = 16  x  28  x  28, output = 16  x  14  x  14, rf = 6 x 6 | max pool -> dropout
 4. Convolution layer 3: kernel size = 3 x 3, input = 16  x  14  x  14, output = 16  x  12  x  12, rf = 10 x 10 | conv -> batch norm -> relu
