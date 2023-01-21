@@ -9,15 +9,15 @@
 
 # Final Model Architecture - Uses batch norm, dropout, data augmentation & learning rate scheduler
 
-1. Convolution layer 1: kernel size = 5*5, input = 1 * 28 * 28, output = 96 * 28 * 28, rf = 5*5 | conv -> batch norm -> relu
-2. Convolution layer 2: kernel size = 1*1, input = 96 * 28 * 28, output = 16 * 28 * 28, rf = 5*5 | conv -> batch norm -> relu
-3. Max pooling of kernel size 2 and stride 2: input = 16 * 28 * 28, output = 16 * 14 * 14, rf = 6*6 | max pool -> dropout
-4. Convolution layer 3: kernel size = 3*3, input = 16 * 14 * 14, output = 16 * 12 * 12, rf = 10*10 | conv -> batch norm -> relu
-5. Convolution layer 4: kernel size = 1*1, input = 16 * 12 * 12, output = 8 * 12 * 12, rf = 10*10 | conv -> batch norm -> relu
-6. Max pooling of kernel size 2 and stride 2: input = 8 * 12 * 12, output = 8 * 6 * 6, rf = 12*12 | max pool -> dropout
-7. Convolution layer 5: kernel size = 3*3, input = 8 * 6 * 6, output = 16 * 4 * 4, rf = 20*20 | conv -> batch norm -> relu
-8. Convolution layer 6: kernel size = 3*3, input = 16 * 4 * 4, output = 10 * 2 * 2, rf = 28*28 | Relu is not applied after last conv layer
-9. Global average pooling (gap): input = 10 * 2 *2, output = 10 * 1 * 1, rf = 32*32
+1. Convolution layer 1: kernel size = 5 x 5, input = 1  x  28  x  28, output = 96  x  28  x  28, rf = 585 | conv -> batch norm -> relu
+2. Convolution layer 2: kernel size = 1 x 1, input = 96  x  28  x  28, output = 16  x  28  x  28, rf = 5 x 5 | conv -> batch norm -> relu
+3. Max pooling of kernel size 2 and stride 2: input = 16  x  28  x  28, output = 16  x  14  x  14, rf = 6 x 6 | max pool -> dropout
+4. Convolution layer 3: kernel size = 3 x 3, input = 16  x  14  x  14, output = 16  x  12  x  12, rf = 10 x 10 | conv -> batch norm -> relu
+5. Convolution layer 4: kernel size = 1 x 1, input = 16  x  12  x  12, output = 8  x  12  x  12, rf = 10 x 10 | conv -> batch norm -> relu
+6. Max pooling of kernel size 2 and stride 2: input = 8  x  12  x  12, output = 8  x  6  x  6, rf = 12 x 12 | max pool -> dropout
+7. Convolution layer 5: kernel size = 3 x 3, input = 8  x  6  x  6, output = 16  x  4  x  4, rf = 20 x 20 | conv -> batch norm -> relu
+8. Convolution layer 6: kernel size = 3 x 3, input = 16  x  4  x  4, output = 10  x  2  x  2, rf = 28 x 28 | Relu is not applied after last conv layer
+9. Global average pooling (gap): input = 10  x  2  x 2, output = 10  x  1  x  1, rf = 32 x 32
 10. Softmax on gap outputs
 
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/21367838/213840811-c5979b95-ec95-401c-ba20-5a8704e26555.png">
