@@ -343,7 +343,7 @@ Test set: Average loss: 0.02493, Accuracy: 8656/10000 (86.56%)
 
 # Final Model Performance
 
-Train set: Average loss: 0.02113, Accuracy: 44118/50000 (88.24%)
+Train set: Average loss: 0.02113, Accuracy: 44118/50000 (88.24%) \ 
 Test set: Average loss: 0.02493, Accuracy: 8656/10000 (86.56%)
 
 
