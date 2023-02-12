@@ -1,5 +1,5 @@
 # Code Structure
-1. S7.ipynb has 
+1. S7.ipynb as assignment notebook
 2. Plots folder has all the random images, mis-classified images, grad cam outputs and plots
 
 
