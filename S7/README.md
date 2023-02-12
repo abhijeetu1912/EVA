@@ -1,8 +1,6 @@
 # Code Structure
-1. File model/model.py has model structure
-2. File utils/utils.py has code to show image, train, test and evaluate model
-3. File main.py has everything from data loader to model training, evaluation by refererring code from model/model.py & utils/utils.py.
-4. Folder plots has photoes with random image examples as well as mis classified examples.
+1. S7.ipynb has 
+2. Plots folder has all the random images, mis-classified images, grad cam outputs and plots
 
 
 --------------------------------------------------------------------------------------------------------------------------------
