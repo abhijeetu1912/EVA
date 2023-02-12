@@ -155,13 +155,13 @@ Test set: Average loss: 0.00973, Accuracy: 88.72
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-# GradCAM Output for Mis-classified Images Against True Label
+# GradCAM Output for Mis-classified Images Against True Label (on 8 x 8 channel)
 
 ![gradcam_true_label](https://user-images.githubusercontent.com/21367838/218301948-5b2fb393-d814-4f9c-afb2-40ee980a8014.png)
 
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-# GradCAM Output for Mis-classified Images Against Prediction
+# GradCAM Output for Mis-classified Images Against Prediction (on 8 x 8 channel)
 
 ![gradcam_predicted_label](https://user-images.githubusercontent.com/21367838/218301952-e45d5e91-c4af-45ad-8df4-12c2ecad1a56.png)
