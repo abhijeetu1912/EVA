@@ -9,7 +9,7 @@
 
 # Example Images
 
-![random_examples](https://user-images.githubusercontent.com/21367838/217028212-5021b5a9-b668-4e84-854d-61adb732a488.png)
+![training_images](https://user-images.githubusercontent.com/21367838/218301858-14487f34-aa2f-40e1-a6fa-a4f44849ba9e.png)
 
 
 --------------------------------------------------------------------------------------------------------------------------------
@@ -143,6 +143,27 @@ Test set: Average loss: 0.00973, Accuracy: 88.72
 
 --------------------------------------------------------------------------------------------------------------------------------
 
+# Performance Plot
+
+![performance_plot](https://user-images.githubusercontent.com/21367838/218301900-f44dc2f5-922d-4cbd-b735-514d838167e3.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 # Mis-classified Images
 
-![misclassified_images](https://user-images.githubusercontent.com/21367838/217027997-fad38568-bd6d-4f05-94f1-e426b1752581.png)
+![misclassified_images (1)](https://user-images.githubusercontent.com/21367838/218301871-9979050d-a77c-4c7d-ad86-22a7f466f28d.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+# GradCAM Output for Mis-classified Images Against True Label
+
+![gradcam_true_label](https://user-images.githubusercontent.com/21367838/218301948-5b2fb393-d814-4f9c-afb2-40ee980a8014.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+# GradCAM Output for Mis-classified Images Against Prediction
+
+![gradcam_predicted_label](https://user-images.githubusercontent.com/21367838/218301952-e45d5e91-c4af-45ad-8df4-12c2ecad1a56.png)
