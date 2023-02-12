@@ -21,9 +21,9 @@
 --------------------------------------------------------------------------------------------------------------------------------
 
 # Model Training Strategy
-1. Model wa strained for 60 epochs using cross entropy loss and rmsprop optimizer with default parameters.
-2. Learning rate scheduler to decrease learning rate if test accuracy doesn't improve for 5 epochs.
-3. Data augmentation stragey was applied and horizontal flip, shift, scale, rotate and coarse dropout method was used.
+1. Model wa trained for 20 epochs using cross entropy loss and sgd optimizer with weight decay.
+2. Learning rate scheduler to decrease learning rate after every 5 epochs.
+3. Random crop and cut out was implemented for data augmentation.
 
 
 --------------------------------------------------------------------------------------------------------------------------------
