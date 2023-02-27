@@ -9,7 +9,7 @@ def Normalization(norm_type, out_channels):
     elif norm_type == "LN":
         return nn.GroupNorm(1, out_channels)
     else:
-        return nn.GroupNorm(4, out_channels)
+        return nn.GroupNorm(out_channels/4, out_channels)
 
 
 # construct cnn class
