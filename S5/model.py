@@ -48,8 +48,6 @@ class Net(nn.Module):
         x = F.relu(self.batch_norm5(self.conv5(x)))  # input = 8 * 6 * 6, output = 16 * 4 * 4, rf = 20*20
         x = self.conv6(x)  # input = 16 * 4 * 4, output = 10 * 2 * 2, rf = 28*28
         x = self.gap(x)  # input = 10 * 2 *2, output = 10 * 1 * 1, rf = 32*32
-        x = x.view(-1, 10)  # flatten cnn embedding
+        out = x.view(-1, 10)  # flatten cnn embedding
 
-        img_out = F.log_softmax(x, dim = 1)  # output layer to output probabilities for label
-
-        return img_out
+        return out
