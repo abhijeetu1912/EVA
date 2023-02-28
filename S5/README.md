@@ -1,9 +1,9 @@
 # Methods
-1. Batch Normalization + L1 Regularization (lambda = 0.001)
+1. Batch Normalization + L1 Regularization (lambda = 0.001): 
    We calculate mean and std dev of each channel in batch normalization.
-3. Layer Normalization
+3. Layer Normalization: 
    We calculate the mean and the variance of each image in the mini-batch for all channels.
-5. Group Normalization with Groups = Channels / 4
+5. Group Normalization with Groups = Channels / 4: 
    We calculate the mean and the variance for each image in each group.
    
 --------------------------------------------------------------------------------------------------------------------------------
@@ -388,5 +388,8 @@ Test set: Average loss: 0.00048, Accuracy: 99.17
 ![image](https://user-images.githubusercontent.com/21367838/221743229-3770e7c5-7151-4921-a023-304740c26073.png)
 
 
+--------------------------------------------------------------------------------------------------------------------------------
 
+# Findings
 
+In current setup Layer normalization had the highest performance. But still its performance was lesser than plain batchnormalization. Also it resulted in better regularization. Group normalization didn't bring any improvements.
