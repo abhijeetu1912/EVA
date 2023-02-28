@@ -390,6 +390,17 @@ Test set: Average loss: 0.00048, Accuracy: 99.17
 
 --------------------------------------------------------------------------------------------------------------------------------
 
+# Normaztion Calculations
+
+Refer to the file - Normalization_Calculations.xlsx
+
+![image](https://user-images.githubusercontent.com/21367838/221748737-137af2b9-8721-4774-9e6e-f24c12dc2a7a.png)
+
+![image](https://user-images.githubusercontent.com/21367838/221748799-5fee0b0d-a052-4790-8619-7791ca260216.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 # Findings
 
 In current setup Layer normalization had the highest performance. But still its performance was lesser than plain batchnormalization. Also it resulted in better regularization. Group normalization didn't bring any improvements.
