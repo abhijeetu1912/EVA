@@ -394,9 +394,9 @@ Test set: Average loss: 0.00048, Accuracy: 99.17
 
 Refer to the file - Normalization_Calculations.xlsx
 
-![image](https://user-images.githubusercontent.com/21367838/221748737-137af2b9-8721-4774-9e6e-f24c12dc2a7a.png)
+![image](https://user-images.githubusercontent.com/21367838/221749049-1298175a-1302-48e3-b664-50233a06a42b.png)
 
-![image](https://user-images.githubusercontent.com/21367838/221748799-5fee0b0d-a052-4790-8619-7791ca260216.png)
+![image](https://user-images.githubusercontent.com/21367838/221749085-a5d5c263-48a5-48ed-ae8b-7edbac95868b.png)
 
 
 --------------------------------------------------------------------------------------------------------------------------------
